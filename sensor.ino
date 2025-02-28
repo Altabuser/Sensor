@@ -15,7 +15,7 @@ void loop() {
     digitalWrite(ledPin, HIGH); //liga a led
     if (estadoSensor == false){
         //compara o valor do estado do LED
-        Serial.print1n("Movimemto Detectado"); //Imprime a mensagem no monitor
+        Serial.println("Movimemto Detectado"); //Imprime a mensagem no monitor
         estadoSensor = true; //Altera o valor de estadoSensor para HIGH
 
     }
@@ -26,8 +26,8 @@ void loop() {
     //se a leitura for low nao tem movimento
     digitalWrite(ledPin, LOW); //desliga led
     if (estadoSensor == true) {//compara o valor do led
-    Serial.print1n("sem movimento"); //mostra no monitor serial
+    Serial.println("sem movimento"); //mostra no monitor serial
     estadoSensor = false; //Altera o valor do sensor para HIGH
 }
  }
-}in 
+}
