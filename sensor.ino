@@ -1,4 +1,4 @@
-int ledPin = 6; //LED
+int ledPin = 13; //LED
 int sensorPin = 7; //Pino Do Sensor
 int leitura = 0; //armazenamento da leitura
 bool estadoSensor = false; //Armazem o estado do sensor
